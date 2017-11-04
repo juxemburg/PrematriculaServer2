@@ -1,0 +1,3 @@
+com\aliance\repository\BookRepository.class
+com\aliance\model\Book.class
+com\aliance\model\Language.class
