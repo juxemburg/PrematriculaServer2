@@ -4,10 +4,12 @@ package com.aliance.services.materias;
 import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.mapper.MateriaMapper;
 import com.aliance.services.WebService;
+import com.aliance.services.qualifiers.Remote;
 import prematriculaClient.PrematriculasControl;
 
 import java.util.List;
 
+@Remote
 public class MateriaService {
 
     private PrematriculasControl _webService;
@@ -28,7 +30,6 @@ public class MateriaService {
         return _mapper.getMateriasMatricular();
     }
 
-
     public List<GroupMateriaModel> getMateriasAprobadas(String idEstudiante) {
         instanciarMapper(idEstudiante);
 
@@ -46,8 +47,7 @@ public class MateriaService {
         if(_mapper != null)
             return;
 
-        _mapper =
-                new MateriaMapper(_webService.cargarHistoriaAcademica(idEstudiante),
+        _mapper = new MateriaMapper(_webService.cargarHistoriaAcademica(idEstudiante),
                         _webService.cargarPensum(idEstudiante),
                         _webService.cargarMateriasEquivalentesEstudiante(idEstudiante));
     }
