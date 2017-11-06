@@ -25,4 +25,25 @@ public class MateriasController {
         return (modelList.size() > 0) ? Response.ok(modelList).build() :
                 Response.status(Response.Status.NOT_FOUND).build();
     }
+
+
+    @GET
+    @Path("historial/{idEst: \\d+}")
+    @Produces(APPLICATION_JSON)
+    public Response getHistorial(@PathParam("idEst") String idEst) {
+        List<GroupMateriaModel> modelList = _ctrlService.getMateriasAprobadas(idEst);
+        return (modelList.size() > 0) ? Response.ok(modelList).build() :
+                Response.status(Response.Status.NOT_FOUND).build();
+    }
+
+    @GET
+    @Path("pensum/{idEst: \\d+}")
+    @Produces(APPLICATION_JSON)
+    public Response getPensum(@PathParam("idEst") String idEst) {
+        List<GroupMateriaModel> modelList = _ctrlService.getPensum(idEst);
+        return (modelList.size() > 0) ? Response.ok(modelList).build() :
+                Response.status(Response.Status.NOT_FOUND).build();
+    }
+
+
 }
