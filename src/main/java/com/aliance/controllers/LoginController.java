@@ -3,6 +3,7 @@ package com.aliance.controllers;
 import com.aliance.model.EstudianteModel;
 import com.aliance.model.LoginModel;
 import com.aliance.services.login.LoginService;
+import com.aliance.services.qualifiers.Remote;
 
 import javax.inject.Inject;
 import javax.ws.rs.POST;
@@ -13,9 +14,10 @@ import javax.ws.rs.core.Response;
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
 @Path("/account")
-public class LoginController {
+public class LoginController
+{
 
-    @Inject
+    @Inject @Remote
     private LoginService _ctrlService;
 
     @POST

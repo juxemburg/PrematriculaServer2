@@ -2,6 +2,7 @@ package com.aliance.controllers;
 
 import com.aliance.model.GroupMateriaModel;
 import com.aliance.services.materias.MateriaService;
+import com.aliance.services.qualifiers.Remote;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -14,7 +15,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 @Path("/materias")
 public class MateriasController {
 
-    @Inject
+    @Inject @Remote
     private MateriaService _ctrlService;
 
     @GET
