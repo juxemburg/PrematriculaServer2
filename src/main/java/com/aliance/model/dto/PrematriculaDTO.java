@@ -1,12 +1,21 @@
-package com.aliance.model;
+package com.aliance.model.dto;
 
+
+import com.aliance.model.PrematriculaKey;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static javax.persistence.CascadeType.MERGE;
+import static javax.persistence.CascadeType.PERSIST;
+import static javax.persistence.CascadeType.REMOVE;
+import static javax.persistence.FetchType.EAGER;
+
 @Entity
+@IdClass(PrematriculaKey.class)
 public class PrematriculaDTO implements Serializable{
 
     @Id
@@ -21,7 +30,13 @@ public class PrematriculaDTO implements Serializable{
     @Column(name="id_periodo")
     private String periodo;
 
-    @OneToMany(mappedBy = "matricula")
+
+    @OneToMany(cascade = {PERSIST, MERGE}, fetch= EAGER, orphanRemoval = true)
+    @JoinColumns({
+            @JoinColumn(name="id_est", referencedColumnName = "id_est"),
+            @JoinColumn(name="id_prog", referencedColumnName = "id_prog"),
+            @JoinColumn(name="id_periodo", referencedColumnName = "id_periodo")
+    })
     private List<MateriaDTO> materias;
 
 
@@ -35,11 +50,13 @@ public class PrematriculaDTO implements Serializable{
     public PrematriculaDTO() {
     }
 
-    public PrematriculaDTO(String idEst, String idProg, List<MateriaDTO> materias,
-                           int numElectivas, int numFish, boolean etica,
-                           boolean aff, Date fecha, boolean diligenciada) {
+    public PrematriculaDTO(String idEst, String idProg,String periodo,
+                           List<MateriaDTO> materias ,int numElectivas,
+                           int numFish, boolean etica, boolean aff, Date fecha,
+                           boolean diligenciada) {
         this.idEst = idEst;
         this.idProg = idProg;
+        this.periodo = periodo;
         this.materias = materias;
         this.numElectivas = numElectivas;
         this.numFish = numFish;

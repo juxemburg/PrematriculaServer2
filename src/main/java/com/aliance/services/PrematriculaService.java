@@ -2,54 +2,65 @@ package com.aliance.services;
 
 
 
-import com.aliance.model.MateriaDTO;
-import com.aliance.model.PrematriculaDTO;
-import com.aliance.util.MateriaDTOMapper;
+import com.aliance.model.PrematriculaModel;
+import com.aliance.model.dto.MateriaDTO;
+import com.aliance.model.dto.PrematriculaDTO;
+import com.aliance.model.mapper.PrematriculaMapper;
+import com.aliance.repository.MateriaRepository;
+import com.aliance.repository.PrematriculaRepository;
 import com.aliance.util.PrematriculaUtil;
 
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 
 public class PrematriculaService {
 
     @Inject
     private PrematriculaUtil _prematriculaUtil;
+
     @Inject
-    private MateriaDTOMapper _materiaMapper;
+    private PrematriculaMapper _mapper;
 
-    private static PrematriculaService instancia;
+    @Inject
+    private PrematriculaRepository _prematriculaRepo;
 
-    public static PrematriculaService Instanciar() {
-        if(instancia == null)
-            instancia = new PrematriculaService();
-        return instancia;
-    }
+    @Inject
+    private MateriaRepository _materiaRepo;
 
     private HashMap<String, PrematriculaDTO> _prematriculas;
 
     public PrematriculaService() {
-        _prematriculas = new HashMap<String, PrematriculaDTO>();
+        _prematriculas = new HashMap<>();
     }
 
-    public PrematriculaDTO GetPrematricula(String idEst, String idProg,
-                                           Date fecha) {
+    public PrematriculaModel GetPrematricula(String idEst, String idProg,
+                                             Date fecha) {
+        PrematriculaDTO model
+                = _prematriculaRepo.find(idEst,idProg,
+                _prematriculaUtil.getPeriodo(fecha));
         String id = getId(idEst, fecha);
-        if(!_prematriculas.containsKey(id)) {
-            _prematriculas.put(id, new PrematriculaDTO(idEst, idProg,
-                    new ArrayList<MateriaDTO>(), 0,0,false,
-                    false,fecha, false));
-        }
-        return _prematriculas.get(id);
+
+        return (model != null) ? _mapper.Map(model) :
+                new PrematriculaModel(idEst, idProg,
+                        _prematriculaUtil.getPeriodo(new Date()), new ArrayList<>(),
+                        0,0,false, false, new Date(),
+                        false);
     }
 
-    public void AddPrematricula(PrematriculaDTO model) {
-        String id = getId(model);
-        if(_prematriculas.containsKey(id))
-            _prematriculas.remove(id);
-        _prematriculas.put(id, model);
+    public PrematriculaDTO AddPrematricula(PrematriculaModel model) {
+        model.setPeriodo(_prematriculaUtil.getPeriodo(new Date()));
+        PrematriculaDTO dto = _mapper.Map(model);
+        dto.setMaterias(_mapper.getMaterias(model.getMaterias(), model));
 
+        PrematriculaDTO newDto;
+        newDto = (_prematriculaRepo.exist(model.getIdEst(),model.getIdProg(),
+                model.getPeriodo())) ? _prematriculaRepo.edit(dto)
+                : _prematriculaRepo.create(dto);
+
+        return newDto;
     }
 
     private String getId(String idEst, Date fecha) {

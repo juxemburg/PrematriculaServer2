@@ -1,4 +1,4 @@
-package com.aliance.model;
+package com.aliance.model.dto;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -21,22 +21,21 @@ public class MateriaDTO implements Serializable{
     @Column(name="id_materia")
     private String idMateria;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumns({
-            @JoinColumn(name="id_est", referencedColumnName = "id_est"),
-            @JoinColumn(name="id_prog", referencedColumnName = "id_prog"),
-            @JoinColumn(name="id_periodo", referencedColumnName = "id_periodo")
-    })
-    private PrematriculaDTO matricula;
+
 
     public MateriaDTO() {
     }
 
-    public MateriaDTO(String idEst, String idProg, String periodo, String idMateria, PrematriculaDTO matricula) {
+
+
+    public MateriaDTO(String idEst, String idProg, String periodo, String idMateria) {
         this.idEst = idEst;
         this.idProg = idProg;
         this.periodo = periodo;
         this.idMateria = idMateria;
-        this.matricula = matricula;
+    }
+
+    public String getIdMateria() {
+        return idMateria;
     }
 }

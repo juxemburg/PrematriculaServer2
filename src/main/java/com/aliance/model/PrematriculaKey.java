@@ -9,20 +9,21 @@ public class PrematriculaKey implements Serializable {
     private String idEst;
     private String idProg;
     private String periodo;
-    private String compositeKey;
+
+    public PrematriculaKey() {
+    }
 
     public PrematriculaKey(String idEst, String idProg, String periodo) {
         this.idEst = idEst;
         this.idProg = idProg;
         this.periodo = periodo;
-        this.compositeKey = idEst+idProg+periodo;
     }
 
     @Override
     public boolean equals(Object o) {
         try {
             PrematriculaKey key = (PrematriculaKey) o;
-            return this.compositeKey.equals(key.compositeKey);
+            return this.compositeKey().equals(key.compositeKey());
         }
         catch (Exception e) {
             return false;
@@ -31,7 +32,11 @@ public class PrematriculaKey implements Serializable {
 
     @Override
     public int hashCode() {
-        return compositeKey.hashCode();
+        return compositeKey().hashCode();
+    }
+
+    private String compositeKey() {
+        return this.idEst+"-"+idProg+"-"+periodo;
     }
 
 }

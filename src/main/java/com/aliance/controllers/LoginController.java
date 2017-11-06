@@ -8,7 +8,10 @@ import com.aliance.services.LoginService;
 import javax.inject.Inject;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
+
+import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
 @Path("/account")
 public class LoginController {
@@ -17,6 +20,8 @@ public class LoginController {
     private LoginService _ctrlService;
 
     @POST
+    @Path("login")
+    @Produces(APPLICATION_JSON )
     public Response postLogin(LoginModel model) {
         EstudianteModel responseModel = _ctrlService.Login(model.getUsuario(),
                 model.getContrasena());
