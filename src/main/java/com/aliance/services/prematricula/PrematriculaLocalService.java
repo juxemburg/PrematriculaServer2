@@ -6,6 +6,7 @@ import com.aliance.model.dto.PrematriculaDTO;
 import com.aliance.services.qualifiers.Local;
 import com.aliance.util.PrematriculaUtil;
 
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Date;
@@ -15,13 +16,13 @@ import java.util.List;
 @Local
 public class PrematriculaLocalService implements IPrematriculaService {
 
-    private HashMap<String, PrematriculaModel> _prematriculas;
+    private static HashMap<String, PrematriculaModel> _prematriculas = new HashMap<>();
 
     @Inject
     private PrematriculaUtil _prematriculaUtil;
 
     public PrematriculaLocalService() {
-        _prematriculas = new HashMap<>();
+
     }
 
     @Override

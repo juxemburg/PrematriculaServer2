@@ -8,6 +8,7 @@ import com.aliance.repository.PrematriculaRepository;
 import com.aliance.services.qualifiers.Remote;
 import com.aliance.util.PrematriculaUtil;
 
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Date;

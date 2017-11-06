@@ -7,6 +7,7 @@ import com.aliance.services.WebService;
 import com.aliance.services.qualifiers.Remote;
 import prematriculaClient.PrematriculasControl;
 
+import javax.enterprise.context.Dependent;
 import java.util.List;
 
 @Remote

@@ -1,9 +1,8 @@
 package com.aliance.controllers;
 
 import com.aliance.model.PrematriculaModel;
-import com.aliance.services.prematricula.PrematriculaService;
+import com.aliance.services.prematricula.IPrematriculaService;
 import com.aliance.services.qualifiers.Local;
-import com.aliance.services.qualifiers.Remote;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -17,7 +16,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 public class PrematriculaController {
 
     @Inject @Local
-    private PrematriculaService _ctrlService;
+    private IPrematriculaService _ctrlService;
 
     @GET
     @Produces(APPLICATION_JSON)

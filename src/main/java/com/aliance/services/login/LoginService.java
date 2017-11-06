@@ -10,6 +10,8 @@ import com.aliance.services.qualifiers.Remote;
 import prematriculaClient.Estudiante;
 import prematriculaClient.PrematriculasControl;
 
+import javax.enterprise.context.Dependent;
+
 @Remote
 public class LoginService implements ILoginService{
 
@@ -27,10 +29,7 @@ public class LoginService implements ILoginService{
         System.out.println("Credentials: "+ nombreUsuario + "-"+contrasena);
         try {
             int res = _autenticador.getResultado(nombreUsuario, contrasena);
-
-
-            if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
-            if(true)
+            if(res == 1)
             {
                 ProgramaMapper mapper = new ProgramaMapper(_webService
                                 .cargarProgramasEstudiante(nombreUsuario));

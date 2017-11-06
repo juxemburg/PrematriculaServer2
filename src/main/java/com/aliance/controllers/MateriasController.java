@@ -1,9 +1,8 @@
 package com.aliance.controllers;
 
 import com.aliance.model.GroupMateriaModel;
-import com.aliance.services.materias.MateriaService;
+import com.aliance.services.materias.IMateriaService;
 import com.aliance.services.qualifiers.Local;
-import com.aliance.services.qualifiers.Remote;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -17,7 +16,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 public class MateriasController {
 
     @Inject @Local
-    private MateriaService _ctrlService;
+    private IMateriaService _ctrlService;
 
     @GET
     @Path("/{idEst: \\d+}")

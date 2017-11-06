@@ -5,6 +5,7 @@ import com.aliance.model.MateriaModel;
 import com.aliance.services.qualifiers.Local;
 import edu.emory.mathcs.backport.java.util.Arrays;
 
+import javax.enterprise.context.Dependent;
 import java.util.ArrayList;
 import java.util.List;
 
