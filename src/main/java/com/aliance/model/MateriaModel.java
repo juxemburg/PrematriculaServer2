@@ -7,12 +7,14 @@ public class MateriaModel implements Comparable<MateriaModel> {
     private String numSemestre;
     private String idPrograma;
     private int semeste;
+    private int creditos;
 
-    public MateriaModel(String id, String nombre, String numSemestre, String idPrograma) {
+    public MateriaModel(String id, String nombre, String numSemestre, String idPrograma, int creditos) {
         this.id = id;
         this.nombre = nombre;
         this.numSemestre = numSemestre;
         this.idPrograma = idPrograma;
+        this.creditos = creditos;
         try {
             semeste = Integer.parseInt(numSemestre);
         }

@@ -118,11 +118,11 @@ public class MateriaMapper {
 
     private MateriaModel Map(Nota nota) {
         return new MateriaModel(nota.getOidMateria(),nota.getMateria(),
-                nota.getSemestre(), nota.getOidEstudiante());
+                nota.getSemestre(), nota.getOidEstudiante(), Integer.parseInt(nota.getCreditos()));
     }
     private MateriaModel Map(Nota nota, String codEquivalente) {
         return new MateriaModel(codEquivalente,nota.getMateria(),
-                nota.getSemestre(), nota.getOidEstudiante());
+                nota.getSemestre(), nota.getOidEstudiante(), Integer.parseInt(nota.getCreditos()));
     }
     private MateriaModel Map(MateriaPensum materia)
     {
@@ -130,7 +130,7 @@ public class MateriaMapper {
                 ? -1 :
                 materia.getSemestre();
         return new MateriaModel(""+materia.getOidmateria(), materia.getMateria(),
-                ""+ semestre, "");
+                ""+ semestre, "", materia.getCreditos());
     }
 
     private boolean MateriaAprobada(Nota nota) {
