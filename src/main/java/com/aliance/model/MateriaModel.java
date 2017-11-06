@@ -6,13 +6,15 @@ public class MateriaModel implements Comparable<MateriaModel> {
     private String nombre;
     private String numSemestre;
     private String idPrograma;
+    private int creditos;
     private int semeste;
 
-    public MateriaModel(String id, String nombre, String numSemestre, String idPrograma) {
+    public MateriaModel(String id, String nombre, String numSemestre, String idPrograma, int creditos) {
         this.id = id;
         this.nombre = nombre;
         this.numSemestre = numSemestre;
         this.idPrograma = idPrograma;
+        this.creditos = creditos;
         try {
             semeste = Integer.parseInt(numSemestre);
         }
@@ -56,6 +58,18 @@ public class MateriaModel implements Comparable<MateriaModel> {
 
     public int getSemeste() {
         return semeste;
+    }
+
+    public int getCreditos() {
+        return creditos;
+    }
+
+    public void setCreditos(int creditos) {
+        this.creditos = creditos;
+    }
+
+    public void setSemeste(int semeste) {
+        this.semeste = semeste;
     }
 
     @Override

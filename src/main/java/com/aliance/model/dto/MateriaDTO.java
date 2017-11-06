@@ -21,6 +21,8 @@ public class MateriaDTO implements Serializable{
     @Column(name="id_materia")
     private String idMateria;
 
+    private int creditos;
+
 
 
     public MateriaDTO() {
@@ -28,11 +30,12 @@ public class MateriaDTO implements Serializable{
 
 
 
-    public MateriaDTO(String idEst, String idProg, String periodo, String idMateria) {
+    public MateriaDTO(String idEst, String idProg, String periodo, String idMateria, int creditos) {
         this.idEst = idEst;
         this.idProg = idProg;
         this.periodo = periodo;
         this.idMateria = idMateria;
+        this.creditos = creditos;
     }
 
     public String getIdMateria() {
