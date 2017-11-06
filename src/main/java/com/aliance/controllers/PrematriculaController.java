@@ -4,14 +4,9 @@ import com.aliance.model.PrematriculaModel;
 import com.aliance.services.PrematriculaService;
 
 import javax.inject.Inject;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
 import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.UriInfo;
 
-import java.net.URI;
 import java.util.Date;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
