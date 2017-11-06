@@ -3,6 +3,7 @@ package com.aliance.controllers;
 import com.aliance.model.EstudianteModel;
 import com.aliance.model.LoginModel;
 import com.aliance.services.login.LoginService;
+import com.aliance.services.qualifiers.Local;
 import com.aliance.services.qualifiers.Remote;
 
 import javax.inject.Inject;

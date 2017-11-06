@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="pruebatecnica:war exploded">
+  <artifact type="exploded-war" name="unicauca-prematricula:war exploded">
     <output-path>$PROJECT_DIR$/target/unicacua-prematricula</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
