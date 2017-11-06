@@ -1,8 +1,9 @@
-package com.aliance.services;
+package com.aliance.services.materias;
 
 
 import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.mapper.MateriaMapper;
+import com.aliance.services.WebService;
 import prematriculaClient.PrematriculasControl;
 
 import java.util.List;

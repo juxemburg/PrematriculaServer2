@@ -2,8 +2,7 @@ package com.aliance.controllers;
 
 import com.aliance.model.EstudianteModel;
 import com.aliance.model.LoginModel;
-import com.aliance.repository.PrematriculaRepository;
-import com.aliance.services.LoginService;
+import com.aliance.services.login.LoginService;
 
 import javax.inject.Inject;
 import javax.ws.rs.POST;

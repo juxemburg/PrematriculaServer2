@@ -1,22 +1,20 @@
-package com.aliance.services;
-
-
+package com.aliance.services.prematricula;
 
 import com.aliance.model.PrematriculaModel;
-import com.aliance.model.dto.MateriaDTO;
 import com.aliance.model.dto.PrematriculaDTO;
 import com.aliance.model.mapper.PrematriculaMapper;
 import com.aliance.repository.MateriaRepository;
 import com.aliance.repository.PrematriculaRepository;
+import com.aliance.services.qualifiers.Remote;
 import com.aliance.util.PrematriculaUtil;
 
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 
-public class PrematriculaService {
+@Remote
+public class PrematriculaService implements IPrematriculaService {
 
     @Inject
     private PrematriculaUtil _prematriculaUtil;
@@ -27,21 +25,14 @@ public class PrematriculaService {
     @Inject
     private PrematriculaRepository _prematriculaRepo;
 
-    @Inject
-    private MateriaRepository _materiaRepo;
+    public PrematriculaService() {}
 
-    private HashMap<String, PrematriculaDTO> _prematriculas;
-
-    public PrematriculaService() {
-        _prematriculas = new HashMap<>();
-    }
-
+    @Override
     public PrematriculaModel GetPrematricula(String idEst, String idProg,
                                              Date fecha) {
         PrematriculaDTO model
                 = _prematriculaRepo.find(idEst,idProg,
                 _prematriculaUtil.getPeriodo(fecha));
-        String id = getId(idEst, fecha);
 
         return (model != null) ? _mapper.Map(model) :
                 new PrematriculaModel(idEst, idProg,
@@ -50,26 +41,21 @@ public class PrematriculaService {
                         false);
     }
 
-    public PrematriculaDTO AddPrematricula(PrematriculaModel model) {
+    @Override
+    public void AddPrematricula(PrematriculaModel model) {
         model.setPeriodo(_prematriculaUtil.getPeriodo(new Date()));
         PrematriculaDTO dto = _mapper.Map(model);
         dto.setMaterias(_mapper.getMaterias(model.getMaterias(), model));
 
-        PrematriculaDTO newDto;
-        newDto = (_prematriculaRepo.exist(model.getIdEst(),model.getIdProg(),
-                model.getPeriodo())) ? _prematriculaRepo.edit(dto)
-                : _prematriculaRepo.create(dto);
+        if (_prematriculaRepo.exist(model.getIdEst(),model.getIdProg(),
+                model.getPeriodo()))
+            _prematriculaRepo.edit(dto);
+        else
+            _prematriculaRepo.create(dto);
 
-        return newDto;
+
     }
 
-    private String getId(String idEst, Date fecha) {
-        return idEst+"-"+_prematriculaUtil.getPeriodo(fecha);
-    }
 
-    private String getId(PrematriculaDTO model) {
-        return model.getIdEst()+"-"
-                +_prematriculaUtil.getPeriodo(model.getFecha());
-    }
 
 }

@@ -1,7 +1,7 @@
 package com.aliance.controllers;
 
 import com.aliance.model.GroupMateriaModel;
-import com.aliance.services.MateriaService;
+import com.aliance.services.materias.MateriaService;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
