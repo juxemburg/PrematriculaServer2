@@ -2,7 +2,7 @@ package com.aliance.controllers;
 
 import com.aliance.model.EstudianteModel;
 import com.aliance.model.LoginModel;
-import com.aliance.services.login.LoginService;
+import com.aliance.services.login.ILoginService;
 import com.aliance.services.qualifiers.Remote;
 
 import javax.inject.Inject;
@@ -18,7 +18,7 @@ public class LoginController
 {
 
     @Inject @Remote
-    private LoginService _ctrlService;
+    private ILoginService _ctrlService;
 
     @POST
     @Path("login")

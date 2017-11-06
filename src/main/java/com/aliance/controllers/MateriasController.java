@@ -1,13 +1,15 @@
 package com.aliance.controllers;
 
 import com.aliance.model.GroupMateriaModel;
-import com.aliance.services.materias.MateriaService;
+import com.aliance.services.materias.IMateriaService;
 import com.aliance.services.qualifiers.Remote;
 
 import javax.inject.Inject;
-import javax.ws.rs.*;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
-
 import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
@@ -16,7 +18,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 public class MateriasController {
 
     @Inject @Remote
-    private MateriaService _ctrlService;
+    private IMateriaService _ctrlService;
 
     @GET
     @Path("/{idEst: \\d+}")
