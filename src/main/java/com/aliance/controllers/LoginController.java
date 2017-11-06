@@ -17,7 +17,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 public class LoginController
 {
 
-    @Inject @Remote
+    @Inject @Local
     private LoginService _ctrlService;
 
     @POST
