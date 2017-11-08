@@ -24,26 +24,23 @@ public class LoginService implements ILoginService{
 
     @Override
     public EstudianteModel Login(String nombreUsuario, String contrasena) {
+        _webService = WebService.Instanciar().GetService();
         System.out.println("Credentials: "+ nombreUsuario + "-"+contrasena);
-        try {
-            int res = _autenticador.getResultado(nombreUsuario, contrasena);
+//      int res = _autenticador.getResultado(nombreUsuario, contrasena);
 
 
-            if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
-            if(true)
-            {
-                ProgramaMapper mapper = new ProgramaMapper(_webService
-                                .cargarProgramasEstudiante(nombreUsuario));
+//      if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
+        if(true)
+        {
+            ProgramaMapper mapper = new ProgramaMapper(_webService
+                    .cargarProgramasEstudiante(nombreUsuario));
+            System.out.println("Código Usuario: "+ mapper.GetProgramas()[0].codigo);
 
-                Estudiante est =
-                        _webService.cargarDatosEstudiante(mapper.GetProgramas()[0].codigo);
-                return new EstudianteMapper(est).GetModel(nombreUsuario,
-                        mapper.GetProgramas());
-            }
-
-        }
-        catch (Exception e) {
-            System.out.println("Error de autenticación: "+e.getMessage());
+            Estudiante est =
+                    _webService.cargarDatosEstudiante(mapper.GetProgramas()[0].codigo);
+            System.out.println("Nombre de usuario: "+ est.getPrimerApellido());
+            return new EstudianteMapper(est).GetModel(nombreUsuario,
+                    mapper.GetProgramas());
         }
         return null;
     }

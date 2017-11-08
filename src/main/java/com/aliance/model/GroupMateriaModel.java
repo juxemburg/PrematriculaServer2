@@ -8,7 +8,7 @@ public class GroupMateriaModel {
     List<MateriaModel> materias;
 
     public GroupMateriaModel(String numSemestre) {
-        this.numSemestre = numSemestre;
+        this.numSemestre = (numSemestre != null) ? numSemestre : "0";
         this.materias = new ArrayList<MateriaModel>();
     }
 
@@ -22,12 +22,9 @@ public class GroupMateriaModel {
     }
 
     public void addMateria(MateriaModel item) {
-
-        if(item.getNumSemestre().equals(numSemestre))
+        if(item.getNumSemestre() !=null && item.getNumSemestre().equals(numSemestre))
             materias.add(item);
     }
-
-
 
     public void setNumSemestre(String numSemestre) {
         this.numSemestre = numSemestre;

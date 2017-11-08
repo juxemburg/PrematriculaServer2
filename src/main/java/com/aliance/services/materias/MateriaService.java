@@ -10,7 +10,7 @@ import prematriculaClient.PrematriculasControl;
 import java.util.List;
 
 @Remote
-public class MateriaService {
+public class MateriaService implements IMateriaService {
 
     private PrematriculasControl _webService;
     private MateriaMapper _mapper;
