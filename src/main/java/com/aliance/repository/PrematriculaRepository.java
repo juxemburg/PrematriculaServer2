@@ -86,7 +86,7 @@ public class PrematriculaRepository {
         q2.executeUpdate();
 
         List<MateriaDTO> materias = model.getMaterias();
-        model.setMaterias(new ArrayList<>());
+        model.setMaterias(new ArrayList<MateriaDTO>());
         for(MateriaDTO materia : materias) {
             _em.persist(materia);
         }

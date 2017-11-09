@@ -13,8 +13,10 @@ public class ProgramaMapper {
     public ProgramaMapper(List<ProgramaEstudiante> programas) {
         this.programas = new ArrayList<ProgramaModel>();
         for(ProgramaEstudiante prog : programas) {
-            this.programas.add(new ProgramaModel(""+prog.getIdprograma(),
-                    prog.getNombreprograma(), prog.getCodigoestudiantil()));
+            if(prog.getTipo()== "PRE" && prog.getEstado() == "ACTIVO" ) {
+                this.programas.add(new ProgramaModel("" + prog.getIdprograma(),
+                        prog.getNombreprograma(), prog.getCodigoestudiantil()));
+            }
         }
     }
 

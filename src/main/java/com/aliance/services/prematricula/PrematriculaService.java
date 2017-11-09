@@ -36,7 +36,7 @@ public class PrematriculaService implements IPrematriculaService {
 
         return (model != null) ? _mapper.Map(model) :
                 new PrematriculaModel(idEst, idProg,
-                        _prematriculaUtil.getPeriodo(new Date()), new ArrayList<>(),
+                        _prematriculaUtil.getPeriodo(new Date()), new ArrayList<String>(),
                         0,0,false, false, new Date(),
                         false);
     }
