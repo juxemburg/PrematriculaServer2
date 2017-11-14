@@ -14,9 +14,6 @@ public class EstudianteMapper {
     }
 
     public EstudianteModel GetModel(String nombreUsuario, ProgramaModel[] programas) {
-
-
-
         return new EstudianteModel(nombreUsuario,
                 _estudiante.getPrimerNombre() + " " +_estudiante.getSegundoNombre(),
                 _estudiante.getPrimerApellido() + " " + _estudiante.getSegundoApellido(),

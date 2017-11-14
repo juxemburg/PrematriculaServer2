@@ -20,7 +20,7 @@ public class MateriaMapper {
 
     public MateriaMapper(List<Nota> notas, List<MateriaPensum> pensum,
                          List<MateriaEquivalente> equivalentes) {
-        _notas = notas;
+        _notas = (notas != null) ? notas : new ArrayList<Nota>();
         _pensum = pensum;
         inicializarEquivalentes(equivalentes);
         aprobadas = getMateriasAprobadas();

@@ -11,9 +11,13 @@ public class ProgramaMapper {
     private List<ProgramaModel> programas;
 
     public ProgramaMapper(List<ProgramaEstudiante> programas) {
+        if(programas == null) {
+            this.programas = new ArrayList<>();
+            return;
+        }
         this.programas = new ArrayList<ProgramaModel>();
         for(ProgramaEstudiante prog : programas) {
-            if(prog.getTipo()== "PRE" && prog.getEstado() == "ACTIVO" ) {
+            if(prog.getTipo().equals("PRE") && prog.getEstado().equals("ACTIVO") ) {
                 this.programas.add(new ProgramaModel("" + prog.getIdprograma(),
                         prog.getNombreprograma(), prog.getCodigoestudiantil()));
             }

@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="pruebatecnica:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="unicacua-prematricula.war">
+    <root id="archive" name="unicauca-prematricula.war">
       <element id="artifact" artifact-name="pruebatecnica:war exploded" />
     </root>
   </artifact>

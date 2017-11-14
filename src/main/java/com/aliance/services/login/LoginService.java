@@ -34,8 +34,13 @@ public class LoginService implements ILoginService{
         {
             ProgramaMapper mapper = new ProgramaMapper(_webService
                     .cargarProgramasEstudiante(nombreUsuario));
-            System.out.println("Código Usuario: "+ mapper.GetProgramas()[0].codigo);
+            ProgramaModel[] programas = mapper.GetProgramas();
 
+            if(programas.length <= 0) {
+                return null;
+            }
+
+            System.out.println("Código Usuario: "+ mapper.GetProgramas()[0].codigo);
             Estudiante est =
                     _webService.cargarDatosEstudiante(mapper.GetProgramas()[0].codigo);
             System.out.println("Nombre de usuario: "+ est.getPrimerApellido());

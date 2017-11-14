@@ -3,10 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aliance</groupId>
-    <artifactId>prueba-tecnica</artifactId>
+    <artifactId>unicauca-prematricula</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>unicacua-prematricula</name>
+    <name>unicauca-prematricula</name>
 
 
 
@@ -20,8 +20,6 @@
         <version.shrinkwrap>1.2.6</version.shrinkwrap>
         <!-- Plugins -->
         <version.surefire.plugin>2.19.1</version.surefire.plugin>
-
-
     </properties>
 
 
@@ -74,7 +72,7 @@
     </dependencies>
 
     <build>
-        <finalName>unicacua-prematricula</finalName>
+        <finalName>unicauca-prematricula</finalName>
 
         <plugins>
             <plugin>

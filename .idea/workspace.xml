@@ -7,107 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1584f978-d6e9-4c97-b99c-ce481e656fd6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/autenticacion/Autentica.class" afterPath="$PROJECT_DIR$/target/classes/autenticacion/Autentica.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/autenticacion/Ldap.class" afterPath="$PROJECT_DIR$/target/classes/autenticacion/Ldap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/controllers/JAXRSConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/controllers/JAXRSConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/EstudianteModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/EstudianteModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/GroupMateriaModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/GroupMateriaModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/LoginModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/LoginModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/MateriaModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/MateriaModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/PrematriculaKey.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/PrematriculaKey.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/ProgramaModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/ProgramaModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/EstudianteMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/EstudianteMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/MateriaMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/MateriaMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/ProgramaMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/ProgramaMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/repository/PrematriculaRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/repository/PrematriculaRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/services/Exceptions/WebServiceException.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/services/Exceptions/WebServiceException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/services/WebService.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/services/WebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/util/PrematriculaUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/util/PrematriculaUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/util/TextUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/util/TextUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/AbstractCollection.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/AbstractCollection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/AbstractList.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/AbstractList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/ArrayList.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/ArrayList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosDocente.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosDocente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosDocenteResponse.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosDocenteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosEstudiante.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosEstudianteResponse.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarDatosEstudianteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarHistoriaAcademica.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarHistoriaAcademica.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarHistoriaAcademicaResponse.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarHistoriaAcademicaResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarMateriasEquivalentesEstudiante.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarMateriasEquivalentesEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarMateriasEquivalentesEstudianteResponse.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarMateriasEquivalentesEstudianteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarPensum.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarPensum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarPensumResponse.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarPensumResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarProgramasEstudiante.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarProgramasEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarProgramasEstudianteResponse.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/CargarProgramasEstudianteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/Docente.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/Docente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/Estudiante.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/Estudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/Materia.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/Materia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/MateriaEquivalente.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/MateriaEquivalente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/MateriaPensum.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/MateriaPensum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/Nota.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/Nota.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/ObjectFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/PrematriculasControl.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/PrematriculasControl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/PrematriculasControlService.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/PrematriculasControlService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/ProgramaEstudiante.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/ProgramaEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/TipoIdentificacion.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/TipoIdentificacion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/prematriculaClient/package-info.class" afterPath="$PROJECT_DIR$/target/classes/prematriculaClient/package-info.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula.war" afterPath="$PROJECT_DIR$/target/unicacua-prematricula.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/autenticacion/Autentica.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/autenticacion/Autentica.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/autenticacion/Ldap.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/autenticacion/Ldap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/controllers/JAXRSConfiguration.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/controllers/JAXRSConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/EstudianteModel.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/EstudianteModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/GroupMateriaModel.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/GroupMateriaModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/LoginModel.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/LoginModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/MateriaModel.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/MateriaModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/PrematriculaKey.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/PrematriculaKey.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/ProgramaModel.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/ProgramaModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/mapper/EstudianteMapper.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/mapper/EstudianteMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/mapper/MateriaMapper.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/mapper/MateriaMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/mapper/ProgramaMapper.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/model/mapper/ProgramaMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/repository/PrematriculaRepository.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/repository/PrematriculaRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/services/Exceptions/WebServiceException.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/services/Exceptions/WebServiceException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/services/WebService.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/services/WebService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/util/PrematriculaUtil.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/util/PrematriculaUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/util/TextUtil.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/com/aliance/util/TextUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/AbstractCollection.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/AbstractCollection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/AbstractList.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/AbstractList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/ArrayList.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/ArrayList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosDocente.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosDocente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosDocenteResponse.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosDocenteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosEstudiante.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosEstudianteResponse.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarDatosEstudianteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarHistoriaAcademica.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarHistoriaAcademica.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarHistoriaAcademicaResponse.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarHistoriaAcademicaResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarMateriasEquivalentesEstudiante.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarMateriasEquivalentesEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarMateriasEquivalentesEstudianteResponse.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarMateriasEquivalentesEstudianteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarPensum.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarPensum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarPensumResponse.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarPensumResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarProgramasEstudiante.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarProgramasEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarProgramasEstudianteResponse.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/CargarProgramasEstudianteResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Docente.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Docente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Estudiante.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Estudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Materia.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Materia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/MateriaEquivalente.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/MateriaEquivalente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/MateriaPensum.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/MateriaPensum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Nota.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/Nota.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/ObjectFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/PrematriculasControl.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/PrematriculasControl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/PrematriculasControlService.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/PrematriculasControlService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/ProgramaEstudiante.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/ProgramaEstudiante.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/TipoIdentificacion.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/TipoIdentificacion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/package-info.class" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/WEB-INF/classes/prematriculaClient/package-info.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/pruebatecnica_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pruebatecnica_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/pruebatecnica_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pruebatecnica_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pruebatecnica.iml" afterPath="$PROJECT_DIR$/pruebatecnica.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/ProgramaMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/ProgramaMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/unicacua-prematricula/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/unicacua-prematricula/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,36 +55,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MateriaService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="method#getMaterias#0;class#MateriaService#0" expanded="false" />
-                <element signature="method#getMateriasAprobadas#0;class#MateriaService#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding>
-                <marker date="1510154578199" expanded="true" signature="1688:1694" ph="{...}" />
+                <marker date="1510672392393" expanded="true" signature="1802:1841" ph="{...}" />
+                <marker date="1510672392393" expanded="true" signature="1835:1841" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="EstudianteMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <marker date="1510674854096" expanded="true" signature="407:666" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MateriaMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MateriaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -183,74 +103,32 @@
       <file leaf-file-name="ProgramaMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/ProgramaMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="212">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrematriculaController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrematriculaService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+            <state relative-caret-position="265">
+              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrematriculaRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="88" column="52" lean-forward="false" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ldap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/autenticacion/Ldap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EstudianteMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -279,6 +157,7 @@
       <find>arquillian-con</find>
       <find>name</find>
       <find>bookst</find>
+      <find>1.8</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\juxem\Documents\PruebaTecnica\src\main\webapp</dir>
@@ -300,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/ProgramaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/WebService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/util/MateriaMapper.java" />
@@ -314,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/util/MateriaDTOMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/repository/MateriaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/PrematriculaKey.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/PrematriculaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PrematriculaMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/dto/PrematriculaDTO.java" />
@@ -338,19 +215,21 @@
         <option value="$PROJECT_DIR$/src/main/java/httpFilters/cross/CrossFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/MateriaModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/dto/MateriaDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/GroupMateriaModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/EstudianteModel.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/ProgramaMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/LoginController.java" />
       </list>
     </option>
   </component>
@@ -372,11 +251,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -419,6 +298,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -426,115 +306,10 @@
               <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
               <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aliance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aliance" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aliance" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aliance" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aliance" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="materias" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aliance" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="prematricula" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,7 +317,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -551,7 +326,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="SearchEverywhereHistoryKey" value="ser&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;logins&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;login&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;materiac&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/MateriasController.java&#10;mapper&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/model/mapper/MateriaMapper.java&#10;MateriaDTo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/model/dto/MateriaDTO.java&#10;materiaMo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/model/GroupMateriaModel.java&#10;loginCon&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/LoginController.java&#10;Contr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;contr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/MateriasController.java&#10;control&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;loginSer&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;LoginSer&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginLocalService.java&#10;materiaSe&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/MateriaService.java&#10;prematr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java&#10;prematriculaSe&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/prematricula/PrematriculaService.java&#10;LoginCon&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/LoginController.java&#10;prematri&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;ILo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/ILoginService.java&#10;loginlocal&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginLocalService.java&#10;MateriaLoc&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/MateriaLocalService.java&#10;IPr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java&#10;IMate&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/IMateriaService.java&#10;MateriaServ&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/MateriaService.java&#10;prematriculacont&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;boo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/repository/BookRepository.java&#10;rep&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/test/java/com/aliance/repository/BookRepositoryTest.java" />
+    <property name="SearchEverywhereHistoryKey" value="loginController&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/LoginController.java&#10;service&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/MateriaService.java&#10;mapper&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/model/mapper/MateriaMapper.java&#10;localService&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java&#10;ser&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;logins&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;login&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;materiac&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/MateriasController.java&#10;MateriaDTo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/model/dto/MateriaDTO.java&#10;materiaMo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/model/GroupMateriaModel.java&#10;loginCon&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/LoginController.java&#10;Contr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;contr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/MateriasController.java&#10;control&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;loginSer&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginService.java&#10;LoginSer&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginLocalService.java&#10;materiaSe&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/MateriaService.java&#10;prematr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java&#10;prematriculaSe&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/prematricula/PrematriculaService.java&#10;LoginCon&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/LoginController.java&#10;prematri&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;ILo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/ILoginService.java&#10;loginlocal&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/login/LoginLocalService.java&#10;MateriaLoc&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/MateriaLocalService.java&#10;IPr&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java&#10;IMate&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/IMateriaService.java&#10;MateriaServ&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/services/materias/MateriaService.java&#10;prematriculacont&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/controllers/PrematriculaController.java&#10;boo&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/main/java/com/aliance/repository/BookRepository.java&#10;rep&#9;FILE&#9;file://C:/Users/juxem/Documents/PruebaTecnica/src/test/java/com/aliance/repository/BookRepositoryTest.java" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
   </component>
@@ -624,7 +399,7 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/unicacua-prematricula/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="pruebatecnica:war">
+        <artifact name="unicauca-prematricula:war">
           <settings />
         </artifact>
       </deployment>
@@ -886,7 +661,14 @@
       <workItem from="1510184133105" duration="417000" />
       <workItem from="1510184590716" duration="490000" />
       <workItem from="1510185791333" duration="15000" />
-      <workItem from="1510186633967" duration="78000" />
+      <workItem from="1510186633967" duration="1839000" />
+      <workItem from="1510345266596" duration="451000" />
+      <workItem from="1510417504978" duration="349000" />
+      <workItem from="1510418587956" duration="973000" />
+      <workItem from="1510426088779" duration="741000" />
+      <workItem from="1510664703839" duration="3768000" />
+      <workItem from="1510668716899" duration="682000" />
+      <workItem from="1510670965861" duration="4507000" />
     </task>
     <servers />
   </component>
@@ -905,15 +687,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100205000" />
+    <option name="totallyTimeSpent" value="113437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2991453" sideWeight="0.5075643" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -929,13 +710,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3008547" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31965813" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2991453" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31965813" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27987897" sideWeight="0.5745258" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1633888" sideWeight="0.42547426" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1785174" sideWeight="0.4512195" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27609682" sideWeight="0.5311653" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17397882" sideWeight="0.5487805" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -992,26 +773,25 @@
           <properties />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="105" />
+      <option name="time" value="153" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JBossConfiguration">
+        <watch expression="prog.getTipo()" language="JAVA" />
+        <watch expression="prog.getEstado()" language="JAVA" />
+        <watch expression="prog.getEstado().equals(&quot;ACTIVO&quot;)" language="JAVA" />
+        <watch expression="prog.getTipo().equals(&quot;PRE&quot;) &amp;&amp; prog.getEstado().equals(&quot;ACTIVO&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1079,14 +859,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/util/NumberGenerator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/util/IsbnGenerator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/ProgramaService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="115" lean-forward="false" selection-start-line="8" selection-start-column="115" selection-end-line="8" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/PrematriculaKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -1105,13 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1153,20 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/stdio/jboss-stdio/1.0.2.GA/jboss-stdio-1.0.2.GA-sources.jar!/org/jboss/stdio/StdioContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -1175,13 +926,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginLocalService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/prematriculaClient/PrematriculasControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1193,13 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/login/ILoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1217,14 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="61" column="25" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/GroupMateriaModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1236,95 +965,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
           <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/ProgramaModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="method#getMaterias#0;class#MateriaService#0" expanded="false" />
-            <element signature="method#getMateriasAprobadas#0;class#MateriaService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/ProgramaMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1510154578199" expanded="true" signature="1688:1694" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="88" column="52" lean-forward="false" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="86" lean-forward="false" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding>
+            <marker date="1510664813108" expanded="true" signature="1215:1376" ph="{...}" />
+            <marker date="1510664813108" expanded="true" signature="1443:1523" ph="{...}" />
+            <marker date="1510664813108" expanded="true" signature="1575:1677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pruebatecnica.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/ProgramaModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/login/ILoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prematriculaClient/PrematriculasControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="92" column="36" lean-forward="false" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/EstudianteModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1510668075696" expanded="true" signature="426:433" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1510674854096" expanded="true" signature="407:666" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/ProgramaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <marker date="1510672392393" expanded="true" signature="1802:1841" ph="{...}" />
+            <marker date="1510672392393" expanded="true" signature="1835:1841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
