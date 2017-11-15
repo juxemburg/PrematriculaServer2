@@ -2,6 +2,7 @@ package com.aliance.controllers;
 
 import com.aliance.model.EstudianteModel;
 import com.aliance.model.LoginModel;
+import com.aliance.model.dto.CoordinadorModel;
 import com.aliance.services.login.ILoginService;
 import com.aliance.services.qualifiers.Remote;
 
@@ -30,6 +31,16 @@ public class LoginController
             return Response.status(Response.Status.UNAUTHORIZED).build();
         }
         return Response.ok(responseModel).build();
+    }
+
+    @POST
+    @Path("admin/login")
+    @Produces(APPLICATION_JSON)
+    public Response postLoginAdmin(LoginModel model) {
+        CoordinadorModel responseModel = _ctrlService.LoginAdmin(model.getUsuario(),
+                model.getContrasena());
+        return (responseModel != null) ? Response.ok(responseModel).build() :
+                Response.status(Response.Status.UNAUTHORIZED).build();
     }
 
 

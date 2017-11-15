@@ -3,6 +3,8 @@ package com.aliance.services.login;
 import autenticacion.Autentica;
 import com.aliance.model.EstudianteModel;
 import com.aliance.model.ProgramaModel;
+import com.aliance.model.dto.CoordinadorModel;
+import com.aliance.model.mapper.CoordinadorMapper;
 import com.aliance.model.mapper.EstudianteMapper;
 import com.aliance.model.mapper.ProgramaMapper;
 import com.aliance.services.WebService;
@@ -24,9 +26,9 @@ public class LoginService implements ILoginService{
 
     @Override
     public EstudianteModel Login(String nombreUsuario, String contrasena) {
-        _webService = WebService.Instanciar().GetService();
+
         System.out.println("Credentials: "+ nombreUsuario + "-"+contrasena);
-//      int res = _autenticador.getResultado(nombreUsuario, contrasena);
+//        int res = autenticar(nombreUsuario, contrasena);
 
 
 //      if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
@@ -48,5 +50,16 @@ public class LoginService implements ILoginService{
                     mapper.GetProgramas());
         }
         return null;
+    }
+
+    @Override
+    public CoordinadorModel LoginAdmin(String nombreUsuario, String contrasena) {
+        if(autenticar(nombreUsuario, contrasena) != 1)
+            return null;
+        return CoordinadorMapper.getCoordinador(_webService.cargarDatosDocente(nombreUsuario));
+    }
+
+    private int autenticar(String nombreUsuario, String contrasena) {
+        return _autenticador.getResultado(nombreUsuario, contrasena);
     }
 }

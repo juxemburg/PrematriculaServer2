@@ -46,6 +46,17 @@ public class PrematriculaRepository {
         return query.getResultList();
     }
 
+    public Object getPrematricula(String idProg, String periodo) {
+        //Todo: revisar implementación de la consulta
+        Query query =
+                _em.createQuery("Select m.idMateria, Count(m),  from MateriaDTO m " +
+                        "WHERE m.idProg = idProg and m.periodo = periodo GROUP BY m.idMateria");
+        List<Object[]> result = query.getResultList();
+        return result;
+    }
+
+
+
     public boolean exist(@NotNull String idEst, @NotNull String idProg,
                          @NotNull String periodo) {
         PrematriculaDTO dto = find(idEst, idProg, periodo);
