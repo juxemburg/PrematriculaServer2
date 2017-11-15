@@ -48,12 +48,9 @@ public class PrematriculaRepository {
 
     public boolean exist(@NotNull String idEst, @NotNull String idProg,
                          @NotNull String periodo) {
-        TypedQuery<PrematriculaDTO> query =
-                _em.createQuery("Select m from PrematriculaDTO m " +
-                                "where m.idProg = idProg and m.periodo = periodo " +
-                                "and idEst = idEst",
-                        PrematriculaDTO.class);
-        return query.getResultList().size() > 0;
+        PrematriculaDTO dto = find(idEst, idProg, periodo);
+
+        return dto != null;
     }
 
     @Transactional(REQUIRED)
