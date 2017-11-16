@@ -59,22 +59,22 @@ public class MateriaMapper {
         return resultado;
     }
 
-    public List<GroupMateriaModel> getMateriasAprobadasGroup() {
-        List<GroupMateriaModel> resultado = new ArrayList<GroupMateriaModel>();
+    public List<GroupMateriaModel<MateriaModel>> getMateriasAprobadasGroup() {
+        List<GroupMateriaModel<MateriaModel>> resultado = new ArrayList<GroupMateriaModel<MateriaModel>>();
         for(Nota nota : _notas) {
             if(MateriaAprobada(nota)) {
                 String codEquivalente = _dicEquivalentes.get(nota.getOidMateria());
                 if(codEquivalente == null)
-                    insertToMap(resultado, Map(nota));
+                    MapUtil.insertToMap(resultado, Map(nota));
                 else
-                    insertToMap(resultado, Map(nota, codEquivalente));
+                    MapUtil.insertToMap(resultado, Map(nota));
             }
         }
         return resultado;
     }
 
-    public List<GroupMateriaModel> getPensum() {
-        List<GroupMateriaModel> resultado = new ArrayList<GroupMateriaModel>();
+    public List<GroupMateriaModel<MateriaModel>> getPensum() {
+        List<GroupMateriaModel<MateriaModel>> resultado = new ArrayList<GroupMateriaModel<MateriaModel>>();
         for(MateriaPensum mat : _pensum) {
             MapUtil.insertToMap(resultado, Map(mat));
         }
@@ -86,9 +86,9 @@ public class MateriaMapper {
      * por un estudiante
      * @return
      */
-    public List<GroupMateriaModel> getMateriasMatricular() {
-        List<GroupMateriaModel> resultado =
-                new ArrayList<GroupMateriaModel>();
+    public List<GroupMateriaModel<MateriaModel>> getMateriasMatricular() {
+        List<GroupMateriaModel<MateriaModel>> resultado =
+                new ArrayList<GroupMateriaModel<MateriaModel>>();
 
         for(MateriaPensum materia : _pensum) {
             MateriaModel mat = Map(materia);

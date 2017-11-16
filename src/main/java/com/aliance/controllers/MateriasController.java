@@ -1,6 +1,7 @@
 package com.aliance.controllers;
 
 import com.aliance.model.GroupMateriaModel;
+import com.aliance.model.MateriaModel;
 import com.aliance.services.materias.IMateriaService;
 import com.aliance.services.qualifiers.Remote;
 
@@ -24,7 +25,7 @@ public class MateriasController {
     @Path("/{idEst: \\d+}")
     @Produces(APPLICATION_JSON)
     public Response getMaterias(@PathParam("idEst") String idEst) {
-        List<GroupMateriaModel> modelList = _ctrlService.getMaterias(idEst);
+        List<GroupMateriaModel<MateriaModel>> modelList = _ctrlService.getMaterias(idEst);
         return (modelList.size() > 0) ? Response.ok(modelList).build() :
                 Response.status(Response.Status.NOT_FOUND).build();
     }
@@ -34,7 +35,7 @@ public class MateriasController {
     @Path("historial/{idEst: \\d+}")
     @Produces(APPLICATION_JSON)
     public Response getHistorial(@PathParam("idEst") String idEst) {
-        List<GroupMateriaModel> modelList = _ctrlService.getMateriasAprobadas(idEst);
+        List<GroupMateriaModel<MateriaModel>> modelList = _ctrlService.getMateriasAprobadas(idEst);
         return (modelList.size() > 0) ? Response.ok(modelList).build() :
                 Response.status(Response.Status.NOT_FOUND).build();
     }
@@ -43,7 +44,7 @@ public class MateriasController {
     @Path("pensum/{idEst: \\d+}")
     @Produces(APPLICATION_JSON)
     public Response getPensum(@PathParam("idEst") String idEst) {
-        List<GroupMateriaModel> modelList = _ctrlService.getPensum(idEst);
+        List<GroupMateriaModel<MateriaModel>> modelList = _ctrlService.getPensum(idEst);
         return (modelList.size() > 0) ? Response.ok(modelList).build() :
                 Response.status(Response.Status.NOT_FOUND).build();
     }

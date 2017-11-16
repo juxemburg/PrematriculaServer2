@@ -12,9 +12,9 @@ import java.util.List;
 @Local
 public class MateriaLocalService implements IMateriaService{
 
-    private List<GroupMateriaModel> res;
+    private List<GroupMateriaModel<MateriaModel>> res;
     public MateriaLocalService() {
-        res = new ArrayList<GroupMateriaModel>();
+        res = new ArrayList<GroupMateriaModel<MateriaModel>>();
         res.add(new GroupMateriaModel("5",new ArrayList<MateriaModel>()));
         res.add(new GroupMateriaModel("6",new ArrayList<MateriaModel>()));
         res.add(new GroupMateriaModel("7",new ArrayList<MateriaModel>()));
@@ -72,17 +72,17 @@ public class MateriaLocalService implements IMateriaService{
     }
 
     @Override
-    public List<GroupMateriaModel> getMaterias(String idEstudiante) {
+    public List<GroupMateriaModel<MateriaModel>> getMaterias(String idEstudiante) {
         return res;
     }
 
     @Override
-    public List<GroupMateriaModel> getMateriasAprobadas(String idEstudiante) {
+    public List<GroupMateriaModel<MateriaModel>> getMateriasAprobadas(String idEstudiante) {
         return res;
     }
 
     @Override
-    public List<GroupMateriaModel> getPensum(String idEstudiante) {
+    public List<GroupMateriaModel<MateriaModel>> getPensum(String idEstudiante) {
         return res;
     }
 }

@@ -2,6 +2,7 @@ package com.aliance.services.materias;
 
 
 import com.aliance.model.GroupMateriaModel;
+import com.aliance.model.MateriaModel;
 import com.aliance.model.mapper.MateriaMapper;
 import com.aliance.services.WebService;
 import com.aliance.services.qualifiers.Remote;
@@ -26,17 +27,17 @@ public class MateriaService implements IMateriaService {
      * @param idEstudiante Código del programa
      * @return las materias, o retorna nulo si no encuentra el código del programa
      */
-    public List<GroupMateriaModel> getMaterias(String idEstudiante) {
+    public List<GroupMateriaModel<MateriaModel>> getMaterias(String idEstudiante) {
         PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
         return _mapper.getMateriasMatricular();
     }
 
-    public List<GroupMateriaModel> getMateriasAprobadas(String idEstudiante) {
+    public List<GroupMateriaModel<MateriaModel>> getMateriasAprobadas(String idEstudiante) {
         PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
         return _mapper.getMateriasAprobadasGroup();
     }
 
-    public List<GroupMateriaModel> getPensum(String idEstudiante) {
+    public List<GroupMateriaModel<MateriaModel>> getPensum(String idEstudiante) {
         PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
         return _mapper.getMateriasAprobadasGroup();
     }

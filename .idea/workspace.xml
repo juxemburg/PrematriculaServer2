@@ -7,22 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1584f978-d6e9-4c97-b99c-ce481e656fd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/IMateriaGroupable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PensumMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/util/MapUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/controllers/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/EstudianteModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/EstudianteModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/GroupMateriaModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/GroupMateriaModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/MateriaModel.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/MateriaModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/MateriaMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/model/mapper/MateriaMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/repository/PrematriculaRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/repository/PrematriculaRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/aliance/util/PrematriculaUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/aliance/util/PrematriculaUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/GroupMateriaModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/GroupMateriaModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/MateriaModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/MateriaModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/PrematriculaReporteModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/PrematriculaReporteModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/controllers/MateriasController.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/controllers/MateriasController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PrematriculaReporteMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PrematriculaReporteMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/util/PrematriculaUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/util/PrematriculaUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java" afterPath="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,19 +61,59 @@
       <file leaf-file-name="MateriaMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="210">
+              <caret line="107" column="41" lean-forward="false" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
+              <folding>
+                <element signature="e#2039#2072#0" expanded="true" />
+                <element signature="e#2615#2648#0" expanded="true" />
+                <element signature="e#3062#3095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrematriculaLocalService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="20" />
+              <folding>
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <marker date="1510792225916" expanded="true" signature="1310:1471" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MateriasController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/MateriasController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrematriculaMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PrematriculaMapper.java">
+      <file leaf-file-name="MateriaLocalService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="278">
+              <caret line="84" column="48" lean-forward="false" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/util/MapUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +121,18 @@
       <file leaf-file-name="MateriaService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="91">
+              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMateriaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -102,52 +150,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrematriculaReporteMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PrematriculaReporteMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrematriculaService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrematriculaService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="60" />
+            <state relative-caret-position="299">
+              <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
               <folding>
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
                 <element signature="method#GetPrematricula#0;class#PrematriculaService#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrematriculaUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/util/PrematriculaUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PensumMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PensumMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,16 +167,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPrematriculaService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="94" lean-forward="false" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -238,9 +237,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/qualifiers/Local.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/qualifiers/remote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/qualifiers/Remote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginLocalService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/MateriasController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cross/filtering/CrossDomain.java" />
         <option value="$PROJECT_DIR$/src/main/java/cross/filtering/CrossDomainInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cross/filtering/CrossDomainFilter.java" />
@@ -248,9 +245,7 @@
         <option value="$PROJECT_DIR$/src/main/java/httpFilters/cors/CorssFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/httpFilters/cross/CorssFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/httpFilters/cross/CrossFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/dto/MateriaDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/EstudianteMapper.java" />
@@ -270,13 +265,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/IPrematriculaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PrematriculaReporteMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PrematriculaMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PensumMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/util/PrematriculaUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/repository/PrematriculaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/PrematriculaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aliance/controllers/MateriasController.java" />
       </list>
     </option>
   </component>
@@ -404,6 +403,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aliance" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="materias" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aliance" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="prematricula" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pruebatecnica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PruebaTecnica" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aliance" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -438,10 +457,6 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.aliance.model.mapper" />
-      <recent name="com.aliance.model" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.aliance.repository" />
     </key>
@@ -451,18 +466,22 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.aliance.repository" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\juxem\Documents\PruebaTecnica\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\juxem\Documents\PruebaTecnica\src\main\webapp" />
       <recent name="C:\Users\juxem\Documents\PruebaTecnica\src\main\java\com\aliance\services" />
       <recent name="C:\Users\juxem\Documents\PruebaTecnica\src\main\java\com\aliance\model" />
       <recent name="C:\Users\juxem\Documents\PruebaTecnica\src\main\java\com\aliance" />
       <recent name="C:\Users\juxem\Documents\PruebaTecnica\src\main\java" />
-      <recent name="C:\Users\juxem\Documents\PruebaTecnica\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aliance.util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\juxem\Documents\PruebaTecnica\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aliance.model.mapper" />
+      <recent name="com.aliance.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -780,7 +799,7 @@
       <workItem from="1510689423679" duration="2559000" />
       <workItem from="1510754212648" duration="708000" />
       <workItem from="1510770706025" duration="8631000" />
-      <workItem from="1510791710568" duration="38000" />
+      <workItem from="1510791710568" duration="1120000" />
     </task>
     <servers />
   </component>
@@ -799,41 +818,41 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126816000" />
+    <option name="totallyTimeSpent" value="127898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2991453" sideWeight="0.5075643" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31965813" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27987897" sideWeight="0.5745258" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18910742" sideWeight="0.4512195" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27609682" sideWeight="0.5311653" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43931624" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2991453" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31965813" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27987897" sideWeight="0.5745258" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18910742" sideWeight="0.4512195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27609682" sideWeight="0.5311653" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17397882" sideWeight="0.5487805" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43931624" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2991453" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -881,7 +900,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java</url>
-          <line>43</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
@@ -945,31 +964,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/login/LoginLocalService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/LoginModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/MateriasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -985,18 +983,6 @@
         <state relative-caret-position="119">
           <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding>
-            <marker date="1510664813108" expanded="true" signature="1215:1376" ph="{...}" />
-            <marker date="1510664813108" expanded="true" signature="1443:1523" ph="{...}" />
-            <marker date="1510664813108" expanded="true" signature="1575:1677" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,22 +1034,22 @@
         <state relative-caret-position="170">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#659#660#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#777#778#0" expanded="false" />
+            <element signature="e#819#820#0" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#992#993#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1124,18 +1110,18 @@
         <state relative-caret-position="187">
           <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1153,16 +1139,6 @@
         <state relative-caret-position="340">
           <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/util/MapUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,31 +1172,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/PensumMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1238,7 +1198,7 @@
         <state relative-caret-position="68">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1263,13 +1223,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="60" />
+        <state relative-caret-position="299">
+          <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
           <folding>
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
             <element signature="method#GetPrematricula#0;class#PrematriculaService#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/util/MapUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/IMateriaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/materias/MateriaLocalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="84" column="48" lean-forward="false" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/model/mapper/MateriaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="107" column="41" lean-forward="false" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
+          <folding>
+            <element signature="e#2039#2072#0" expanded="true" />
+            <element signature="e#2615#2648#0" expanded="true" />
+            <element signature="e#3062#3095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/services/prematricula/PrematriculaLocalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <marker date="1510792225916" expanded="true" signature="1310:1471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aliance/controllers/MateriasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

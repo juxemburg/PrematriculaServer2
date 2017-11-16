@@ -1,7 +1,9 @@
 package com.aliance.services.prematricula;
 
 
+import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.PrematriculaModel;
+import com.aliance.model.PrematriculaReporteModel;
 import com.aliance.model.dto.PrematriculaDTO;
 import com.aliance.services.qualifiers.Local;
 import com.aliance.util.PrematriculaUtil;
@@ -42,6 +44,11 @@ public class PrematriculaLocalService implements IPrematriculaService {
         if(_prematriculas.containsKey(id))
             _prematriculas.remove(id);
         _prematriculas.put(id, model);
+    }
+
+    @Override
+    public List<GroupMateriaModel<PrematriculaReporteModel>> GetReporte(String idProg, String periodo) {
+        return null;
     }
 
     private String getId(String idEst, String idProg,Date fecha) {
