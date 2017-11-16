@@ -1,17 +1,25 @@
 package com.aliance.services.prematricula;
 
+import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.PrematriculaModel;
+import com.aliance.model.PrematriculaReporteModel;
 import com.aliance.model.dto.PrematriculaDTO;
+import com.aliance.model.mapper.MateriaMapper;
+import com.aliance.model.mapper.PensumMapper;
 import com.aliance.model.mapper.PrematriculaMapper;
+import com.aliance.model.mapper.PrematriculaReporteMapper;
 import com.aliance.repository.MateriaRepository;
 import com.aliance.repository.PrematriculaRepository;
+import com.aliance.services.WebService;
 import com.aliance.services.qualifiers.Remote;
 import com.aliance.util.PrematriculaUtil;
+import prematriculaClient.PrematriculasControl;
 
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 
 @Remote
 public class PrematriculaService implements IPrematriculaService {
@@ -22,10 +30,19 @@ public class PrematriculaService implements IPrematriculaService {
     @Inject
     private PrematriculaMapper _mapper;
 
+    private PensumMapper _pensumMapper;
+    private PrematriculaReporteMapper _reporteMapper;
+
     @Inject
     private PrematriculaRepository _prematriculaRepo;
 
-    public PrematriculaService() {}
+
+
+    private PrematriculasControl _webService;
+
+    public PrematriculaService() {
+        _webService = WebService.Instanciar().GetService();
+    }
 
     @Override
     public PrematriculaModel GetPrematricula(String idEst, String idProg,
@@ -55,6 +72,20 @@ public class PrematriculaService implements IPrematriculaService {
 
 
     }
+
+    @Override
+    public List<GroupMateriaModel<PrematriculaReporteModel>> GetReporte(String idProg, String periodo) {
+        try {
+            String idEstudiante = _prematriculaRepo.getIdEstudiante(idProg);
+
+            PrematriculaUtil.InstanciarMapper( _pensumMapper, _webService, idEstudiante);
+            return PrematriculaReporteMapper.mapReporte(
+                    _prematriculaRepo.getPrematricula(idProg, periodo),_pensumMapper.get_dicMaterias());
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
 
 
 

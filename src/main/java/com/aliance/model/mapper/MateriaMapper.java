@@ -3,6 +3,7 @@ package com.aliance.model.mapper;
 
 import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.MateriaModel;
+import com.aliance.util.MapUtil;
 import prematriculaClient.MateriaEquivalente;
 import prematriculaClient.MateriaPensum;
 import prematriculaClient.Nota;
@@ -11,11 +12,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import static com.aliance.util.MapUtil.insertToMap;
+
 public class MateriaMapper {
 
     private List<Nota> _notas;
     private List<MateriaPensum> _pensum;
     private HashMap<String, String> _dicEquivalentes;
+
     private List<MateriaModel> aprobadas;
 
     public MateriaMapper(List<Nota> notas, List<MateriaPensum> pensum,
@@ -34,6 +38,8 @@ public class MateriaMapper {
                     ""+equivalente.getIdmateriaprograma());
         }
     }
+
+
 
     /**
      * Método que retorna las materias aprobadas por un estudiante
@@ -70,7 +76,7 @@ public class MateriaMapper {
     public List<GroupMateriaModel> getPensum() {
         List<GroupMateriaModel> resultado = new ArrayList<GroupMateriaModel>();
         for(MateriaPensum mat : _pensum) {
-            insertToMap(resultado, Map(mat));
+            MapUtil.insertToMap(resultado, Map(mat));
         }
         return resultado;
     }
@@ -87,7 +93,7 @@ public class MateriaMapper {
         for(MateriaPensum materia : _pensum) {
             MateriaModel mat = Map(materia);
             if(mat.getSemeste() > 0 && !aprobadas.contains(mat)) {
-                insertToMap(resultado, mat);
+                MapUtil.insertToMap(resultado, mat);
             }
         }
         return resultado;
@@ -96,25 +102,8 @@ public class MateriaMapper {
 
 
 
-    private void insertToMap(List<GroupMateriaModel> list, MateriaModel item) {
 
-        int index = contiene(item.getNumSemestre(), list);
-        if(index <0) {
-            list.add(new GroupMateriaModel(item.getNumSemestre()));
-            index = list.size()-1;
-        }
-        list.get(index).addMateria(item);
 
-    }
-    private int contiene(String codigo, List<GroupMateriaModel> list) {
-        int index =0;
-        for(GroupMateriaModel model : list) {
-            if(model.getNumSemestre().equals(codigo))
-                return index;
-            index++;
-        }
-        return -1;
-    }
 
     private MateriaModel Map(Nota nota) {
         return new MateriaModel(nota.getOidMateria(),nota.getMateria(),

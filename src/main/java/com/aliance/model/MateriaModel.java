@@ -1,18 +1,18 @@
 package com.aliance.model;
 
-public class MateriaModel implements Comparable<MateriaModel> {
+public class MateriaModel extends IMateriaGroupable implements Comparable<MateriaModel> {
 
     private String id;
     private String nombre;
-    private String numSemestre;
     private String idPrograma;
     private int semeste;
     private int creditos;
 
     public MateriaModel(String id, String nombre, String numSemestre, String idPrograma, int creditos) {
+        super(numSemestre);
         this.id = id;
         this.nombre = nombre;
-        this.numSemestre = numSemestre;
+
         this.idPrograma = idPrograma;
         this.creditos = creditos;
         try {
@@ -40,13 +40,6 @@ public class MateriaModel implements Comparable<MateriaModel> {
         this.nombre = nombre;
     }
 
-    public String getNumSemestre() {
-        return numSemestre;
-    }
-
-    public void setNumSemestre(String numSemestre) {
-        this.numSemestre = numSemestre;
-    }
 
     public String getIdPrograma() {
         return idPrograma;

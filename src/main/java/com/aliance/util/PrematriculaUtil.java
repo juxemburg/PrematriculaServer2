@@ -1,5 +1,9 @@
 package com.aliance.util;
 
+import com.aliance.model.mapper.MateriaMapper;
+import com.aliance.model.mapper.PensumMapper;
+import prematriculaClient.PrematriculasControl;
+
 import java.util.Calendar;
 import java.util.Date;
 
@@ -16,5 +20,24 @@ public class PrematriculaUtil {
     }
     private int getPeriodoAnio(int mes) {
         return 1+(int)Math.floor(mes/6);
+    }
+
+    public static void InstanciarMapper(String idEstudiante, MateriaMapper _mapper,
+                                        PrematriculasControl _webService) {
+
+        if(_mapper != null)
+            return;
+
+        _mapper = new MateriaMapper(_webService.cargarHistoriaAcademica(idEstudiante),
+                _webService.cargarPensum(idEstudiante),
+                _webService.cargarMateriasEquivalentesEstudiante(idEstudiante));
+    }
+
+    public static void InstanciarMapper(PensumMapper _mapper,
+                                        PrematriculasControl _webService,
+                                        String idEstudiante) {
+        if(_mapper != null)
+            return;
+        _mapper = new PensumMapper(_webService.cargarPensum(idEstudiante));
     }
 }

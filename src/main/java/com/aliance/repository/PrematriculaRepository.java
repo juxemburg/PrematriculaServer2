@@ -46,7 +46,15 @@ public class PrematriculaRepository {
         return query.getResultList();
     }
 
-    public Object getPrematricula(String idProg, String periodo) {
+    public String getIdEstudiante(String idProg) {
+        TypedQuery<String> query =
+                _em.createQuery("Select m.idEst from MateriaDTO m " +
+                                "where m.idProg = idProg",
+                        String.class);
+        return query.getSingleResult();
+    }
+
+    public List<Object[]> getPrematricula(String idProg, String periodo) {
         //Todo: revisar implementación de la consulta
         Query query =
                 _em.createQuery("Select m.idMateria, Count(m),  from MateriaDTO m " +

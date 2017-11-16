@@ -56,7 +56,8 @@ public class LoginService implements ILoginService{
     public CoordinadorModel LoginAdmin(String nombreUsuario, String contrasena) {
         if(autenticar(nombreUsuario, contrasena) != 1)
             return null;
-        return CoordinadorMapper.getCoordinador(_webService.cargarDatosDocente(nombreUsuario));
+        return CoordinadorMapper.getCoordinador(
+                _webService.cargarDatosDocente(nombreUsuario));
     }
 
     private int autenticar(String nombreUsuario, String contrasena) {
