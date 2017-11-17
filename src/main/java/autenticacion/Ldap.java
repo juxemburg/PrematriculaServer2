@@ -33,7 +33,7 @@ public class Ldap implements Serializable{
 	 * Default serial version
 	 */
 	private static final long serialVersionUID = 1L;
-	private static final String CONFIG_FILE_DIRECTORY = "C:/Users/juxem/Documents/dasboot/src/main/java/autenticacion/";
+	private static final String CONFIG_FILE_DIRECTORY = "autenticacion/";
 	private static final String CONFIG_FILE_NAME = "configuration.properties";
 	private Properties prop;
 	
@@ -60,11 +60,14 @@ public class Ldap implements Serializable{
 		this.resultado=0;
 		this.idcompleto="";
 		prop = new Properties();
-        prop.setProperty("ServidorLDAP","ldap://juno.unicauca.edu.co:389/");
-		prop.setProperty("servidorLDAP","ldap://juno.unicauca.edu.co:389/");
-        prop.setProperty("usuarioLDAP","cn\\=Tester,dc\\=unicauca,dc\\=edu,dc\\=co");
+
+		//Todo: Cambiar por credenciales de producción
+        prop.setProperty("ServidorLDAP","ldap://10.20.6.135:389/");
+		prop.setProperty("servidorLDAP","ldap://10.20.6.135:389/");
+		String url = "cn=Tester,dc=unicauca,dc=edu,dc=co";
+        prop.setProperty("usuarioLDAP",url);
         prop.setProperty("contraseniaLDAP","T3st3R_Un1");
-		//prop = this.cargarArchivoPropiedades();
+//		prop = this.cargarArchivoPropiedades();
 	} 
 	
 	public boolean hacebind(){
@@ -110,18 +113,18 @@ public class Ldap implements Serializable{
 		authEnv.put(Context.SECURITY_PRINCIPAL, this.idcompleto);
 		authEnv.put(Context.SECURITY_CREDENTIALS, this.passWord);
 		
-		HttpServletRequest request = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
+//		HttpServletRequest request = (HttpServletRequest) FacesContext.getCurrentInstance().getExternalContext().getRequest();
 		
 		try {
 			@SuppressWarnings("unused")
 			DirContext authContext = new InitialDirContext(authEnv); 
 			resultado=1; //Autenticación correcta
-			System.out.println("Autenticación correcta. Usuario: "+userName+" IP: " +request.getRemoteAddr());
+			System.out.println("Autenticación correcta. Usuario: "+userName+" IP: ");
 		} catch (AuthenticationException authEx) {
-			System.out.println("Autenticación errada - Credenciales erroneas (2). Usuario: "+userName+" IP: " +request.getRemoteAddr());
+			System.out.println("Autenticación errada - Credenciales erroneas (2). Usuario: "+userName+" IP: ");
 			resultado=2; //Credenciales erróneas
 		} catch (NamingException namEx) {
-			System.err.println("Autenticación errada - Error en el servidor LDAP (3). Usuario: "+userName+" IP: " +request.getRemoteAddr());
+			System.err.println("Autenticación errada - Error en el servidor LDAP (3). Usuario: "+userName+" IP: ");
 			resultado=3; //Otra excepción - Error de servidor - Error en el LDAP
 			namEx.printStackTrace();
 		}

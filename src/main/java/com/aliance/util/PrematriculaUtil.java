@@ -22,22 +22,26 @@ public class PrematriculaUtil {
         return 1+(int)Math.floor(mes/6);
     }
 
-    public static void InstanciarMapper(String idEstudiante, MateriaMapper _mapper,
+    public static MateriaMapper InstanciarMapper(String idEstudiante, MateriaMapper _mapper,
                                         PrematriculasControl _webService) {
 
         if(_mapper != null)
-            return;
+            return _mapper;
 
         _mapper = new MateriaMapper(_webService.cargarHistoriaAcademica(idEstudiante),
                 _webService.cargarPensum(idEstudiante),
                 _webService.cargarMateriasEquivalentesEstudiante(idEstudiante));
+        return _mapper;
+
     }
 
-    public static void InstanciarMapper(PensumMapper _mapper,
+    public static PensumMapper InstanciarMapper(PensumMapper _mapper,
                                         PrematriculasControl _webService,
                                         String idEstudiante) {
         if(_mapper != null)
-            return;
+            return _mapper;
+
         _mapper = new PensumMapper(_webService.cargarPensum(idEstudiante));
+        return _mapper;
     }
 }

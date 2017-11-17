@@ -40,7 +40,7 @@ public class Autentica implements Serializable {
 
         int respuesta = 0;
 
-        /** Se asegura que el login y password no sean nulos */
+        /** Se asegura que el login y password no sean nulos*/
         if (login != null && !login.equals("") && password != null
                 && !password.equals("")) {
 

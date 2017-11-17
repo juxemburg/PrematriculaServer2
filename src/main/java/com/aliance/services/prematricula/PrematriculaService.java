@@ -78,7 +78,7 @@ public class PrematriculaService implements IPrematriculaService {
         try {
             String idEstudiante = _prematriculaRepo.getIdEstudiante(idProg);
 
-            PrematriculaUtil.InstanciarMapper( _pensumMapper, _webService, idEstudiante);
+            _pensumMapper = PrematriculaUtil.InstanciarMapper( _pensumMapper, _webService, idEstudiante);
             return PrematriculaReporteMapper.mapReporte(
                     _prematriculaRepo.getPrematricula(idProg, periodo),_pensumMapper.get_dicMaterias());
         } catch (Exception e) {

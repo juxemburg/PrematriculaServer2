@@ -34,9 +34,11 @@ public class PrematriculaController {
 
     @GET
     @Produces(APPLICATION_JSON)
-    @Path("/{idProg: \\d+}/{periodo: \\d+}")
+    @Path("report/{idProg: \\d+}/{periodo: \\d+}/{semestre: \\d+}")
     public Response getPrematriculaReporte(@PathParam("idProg") String idProg,
-                                           @PathParam("periodo")String periodo) {
+                                           @PathParam("periodo")String anio,
+                                           @PathParam("semestre")String semestre) {
+        String periodo = anio+"-"+semestre;
         List<GroupMateriaModel<PrematriculaReporteModel>> resultModel =
                 _ctrlService.GetReporte(idProg, periodo);
         return (resultModel != null) ? Response.ok(resultModel).build() :

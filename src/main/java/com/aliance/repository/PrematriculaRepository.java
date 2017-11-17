@@ -50,7 +50,7 @@ public class PrematriculaRepository {
         TypedQuery<String> query =
                 _em.createQuery("Select m.idEst from MateriaDTO m " +
                                 "where m.idProg = idProg",
-                        String.class);
+                        String.class).setMaxResults(1);
         return query.getSingleResult();
     }
 

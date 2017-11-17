@@ -28,17 +28,17 @@ public class MateriaService implements IMateriaService {
      * @return las materias, o retorna nulo si no encuentra el código del programa
      */
     public List<GroupMateriaModel<MateriaModel>> getMaterias(String idEstudiante) {
-        PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
+        _mapper = PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
         return _mapper.getMateriasMatricular();
     }
 
     public List<GroupMateriaModel<MateriaModel>> getMateriasAprobadas(String idEstudiante) {
-        PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
+        _mapper = PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
         return _mapper.getMateriasAprobadasGroup();
     }
 
     public List<GroupMateriaModel<MateriaModel>> getPensum(String idEstudiante) {
-        PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
+        _mapper = PrematriculaUtil.InstanciarMapper(idEstudiante, _mapper, _webService);
         return _mapper.getMateriasAprobadasGroup();
     }
 

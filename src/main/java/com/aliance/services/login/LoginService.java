@@ -28,11 +28,11 @@ public class LoginService implements ILoginService{
     public EstudianteModel Login(String nombreUsuario, String contrasena) {
 
         System.out.println("Credentials: "+ nombreUsuario + "-"+contrasena);
-//        int res = autenticar(nombreUsuario, contrasena);
 
 
-//      if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
-        if(true)
+
+      if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
+//        if(true)
         {
             ProgramaMapper mapper = new ProgramaMapper(_webService
                     .cargarProgramasEstudiante(nombreUsuario));

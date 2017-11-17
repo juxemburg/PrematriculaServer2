@@ -29,12 +29,14 @@ webpackEmptyAsyncContext.id = "../../../../../src/$$_gendir lazy recursive";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_app_shared_shared_module__ = __webpack_require__("../../../../../src/app/shared/shared.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ngx_cookie_service__ = __webpack_require__("../../../../ngx-cookie-service/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_app_account_login_login_component__ = __webpack_require__("../../../../../src/app/account/login/login.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_app_account_services_admin_service__ = __webpack_require__("../../../../../src/app/account/services/admin.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -58,6 +60,7 @@ var AccountModule = (function () {
             providers: [
                 __WEBPACK_IMPORTED_MODULE_2_app_account_services_login_service__["a" /* LoginService */],
                 __WEBPACK_IMPORTED_MODULE_3_app_account_services_user_service__["a" /* UserService */],
+                __WEBPACK_IMPORTED_MODULE_7_app_account_services_admin_service__["a" /* AdminService */],
                 __WEBPACK_IMPORTED_MODULE_5_ngx_cookie_service__["a" /* CookieService */]
             ]
         })
@@ -2305,10 +2308,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var HttpService = (function () {
+    // private _baseUrl = 'https://94953266-40c4-4521-a736-53ea63e12758.mock.pstmn.io/unicacua-prematricula/api';
     function HttpService(_http) {
         this._http = _http;
         // private _baseUrl = 'http://localhost:8080/unicauca-prematricula/api';
-        this._baseUrl = 'https://94953266-40c4-4521-a736-53ea63e12758.mock.pstmn.io/unicacua-prematricula/api';
+        this._baseUrl = '/unicauca-prematricula/api';
     }
     HttpService.prototype.Get = function (subUrl) {
         var url = this.getUrl(subUrl);
