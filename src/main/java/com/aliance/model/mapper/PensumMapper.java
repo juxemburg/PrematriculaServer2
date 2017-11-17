@@ -15,8 +15,8 @@ public class PensumMapper {
     private void inicializarMaterias(List<MateriaPensum> pensumList) {
         this._dicMaterias = new HashMap<String, MateriaPensum>();
         for(MateriaPensum mat : pensumList) {
-            if(!_dicMaterias.containsKey(mat.getCodigomateria()))
-                _dicMaterias.put(mat.getCodigomateria(), mat);
+            if(!_dicMaterias.containsKey(""+mat.getOidmateria()))
+                _dicMaterias.put(""+mat.getOidmateria(), mat);
         }
     }
 

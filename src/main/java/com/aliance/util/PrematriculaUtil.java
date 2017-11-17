@@ -38,9 +38,6 @@ public class PrematriculaUtil {
     public static PensumMapper InstanciarMapper(PensumMapper _mapper,
                                         PrematriculasControl _webService,
                                         String idEstudiante) {
-        if(_mapper != null)
-            return _mapper;
-
         _mapper = new PensumMapper(_webService.cargarPensum(idEstudiante));
         return _mapper;
     }

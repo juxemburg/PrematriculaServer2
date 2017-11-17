@@ -3,6 +3,7 @@ package com.aliance.controllers;
 import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.PrematriculaModel;
 import com.aliance.model.PrematriculaReporteModel;
+import com.aliance.model.ReporteModel;
 import com.aliance.services.prematricula.IPrematriculaService;
 import com.aliance.services.qualifiers.Remote;
 
@@ -17,7 +18,8 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 @Path("/prematricula")
 public class PrematriculaController {
 
-    @Inject @Remote
+    @Inject
+    @Remote
     private IPrematriculaService _ctrlService;
 
     @GET
@@ -34,19 +36,20 @@ public class PrematriculaController {
 
     @GET
     @Produces(APPLICATION_JSON)
-    @Path("report/{idProg: \\d+}/{periodo: \\d+}/{semestre: \\d+}")
-    public Response getPrematriculaReporte(@PathParam("idProg") String idProg,
-                                           @PathParam("periodo")String anio,
-                                           @PathParam("semestre")String semestre) {
-        String periodo = anio+"-"+semestre;
-        List<GroupMateriaModel<PrematriculaReporteModel>> resultModel =
-                _ctrlService.GetReporte(idProg, periodo);
+    @Path("report/{usuarioDocente: \\d+}/{idProg: \\d+}/{periodo: \\d+}/{semestre: \\d+}")
+    public Response getPrematriculaReporte(@PathParam("usuarioDocente") String usarioDocente,
+                                           @PathParam("idProg") String idProg,
+                                           @PathParam("periodo") String anio,
+                                           @PathParam("semestre") String semestre) {
+        String periodo = anio + "-" + semestre;
+        ReporteModel resultModel =
+                _ctrlService.GetReporte(idProg, periodo, usarioDocente);
         return (resultModel != null) ? Response.ok(resultModel).build() :
                 Response.status(Response.Status.BAD_REQUEST).build();
     }
 
     @POST
-    public  Response postPrematricula(PrematriculaModel model) {
+    public Response postPrematricula(PrematriculaModel model) {
         _ctrlService.AddPrematricula(model);
         return Response.noContent().build();
     }

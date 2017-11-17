@@ -47,20 +47,31 @@ public class PrematriculaRepository {
     }
 
     public String getIdEstudiante(String idProg) {
-        TypedQuery<String> query =
-                _em.createQuery("Select m.idEst from MateriaDTO m " +
-                                "where m.idProg = idProg",
-                        String.class).setMaxResults(1);
-        return query.getSingleResult();
+        TypedQuery<PrematriculaDTO> query =
+                _em.createQuery("Select m from PrematriculaDTO m " +
+                                "where m.idProg = :idProg", PrematriculaDTO.class).setMaxResults(1);
+        query.setParameter("idProg", idProg);
+        return query.getSingleResult().getIdEst();
     }
 
     public List<Object[]> getPrematricula(String idProg, String periodo) {
         //Todo: revisar implementación de la consulta
         Query query =
-                _em.createQuery("Select m.idMateria, Count(m),  from MateriaDTO m " +
-                        "WHERE m.idProg = idProg and m.periodo = periodo GROUP BY m.idMateria");
+                _em.createQuery("Select m.idMateria, Count(m)  from MateriaDTO m " +
+                        "WHERE m.idProg = :idProg and m.periodo = :periodo GROUP BY m.idMateria");
+        query.setParameter("idProg",idProg);
+        query.setParameter("periodo",periodo);
         List<Object[]> result = query.getResultList();
         return result;
+    }
+
+    public int getNumRegistros(String idProg, String periodo) {
+        TypedQuery<Long> query =
+                _em.createQuery("Select count(p) from PrematriculaDTO p " +
+                        "where p.idProg = :idProg and p.periodo = :periodo", Long.class);
+        query.setParameter("idProg", idProg);
+        query.setParameter("periodo", periodo);
+        return Integer.parseInt(""+query.getSingleResult());
     }
 
 

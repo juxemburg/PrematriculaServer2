@@ -3,6 +3,7 @@ package com.aliance.services.prematricula;
 import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.PrematriculaModel;
 import com.aliance.model.PrematriculaReporteModel;
+import com.aliance.model.ReporteModel;
 import com.aliance.model.dto.PrematriculaDTO;
 
 import java.util.ArrayList;
@@ -16,7 +17,7 @@ public interface IPrematriculaService {
 
     void AddPrematricula(PrematriculaModel model);
 
-    List<GroupMateriaModel<PrematriculaReporteModel>> GetReporte(String idProg, String periodo);
+    ReporteModel GetReporte(String idProg, String periodo, String usuarioDocente);
 
 
 

@@ -4,6 +4,7 @@ package com.aliance.services.prematricula;
 import com.aliance.model.GroupMateriaModel;
 import com.aliance.model.PrematriculaModel;
 import com.aliance.model.PrematriculaReporteModel;
+import com.aliance.model.ReporteModel;
 import com.aliance.model.dto.PrematriculaDTO;
 import com.aliance.services.qualifiers.Local;
 import com.aliance.util.PrematriculaUtil;
@@ -47,7 +48,7 @@ public class PrematriculaLocalService implements IPrematriculaService {
     }
 
     @Override
-    public List<GroupMateriaModel<PrematriculaReporteModel>> GetReporte(String idProg, String periodo) {
+    public ReporteModel GetReporte(String idProg, String periodo, String usuarioDocente) {
         return null;
     }
 

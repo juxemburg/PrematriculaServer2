@@ -11,6 +11,10 @@ import java.util.List;
 
 public class PrematriculaReporteMapper {
 
+    public static List<GroupMateriaModel<PrematriculaReporteModel>> mapReporteEmpty(){
+        return new ArrayList<GroupMateriaModel<PrematriculaReporteModel>>();
+    }
+
     public static List<GroupMateriaModel<PrematriculaReporteModel>> mapReporte(
             List<Object[]> reporteI, HashMap<String, MateriaPensum> pensum) {
 
@@ -19,7 +23,7 @@ public class PrematriculaReporteMapper {
 
         for(Object[] reg: reporteI) {
             MateriaPensum matPensum = pensum.get(reg[0].toString());
-            int cantidad = (Integer) reg[1];
+            int cantidad = Integer.parseInt(reg[1].toString());
             PrematriculaReporteModel matModel
                     = new PrematriculaReporteModel(""+matPensum.getSemestre(),
                     matPensum.getCodigomateria(), matPensum.getMateria(),cantidad);

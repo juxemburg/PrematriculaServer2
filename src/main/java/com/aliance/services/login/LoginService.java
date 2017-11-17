@@ -31,8 +31,8 @@ public class LoginService implements ILoginService{
 
 
 
-      if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
-//        if(true)
+//      if(_autenticador.getResultado(nombreUsuario, contrasena) == 1)
+        if(true)
         {
             ProgramaMapper mapper = new ProgramaMapper(_webService
                     .cargarProgramasEstudiante(nombreUsuario));
