@@ -11,7 +11,7 @@ public class CoordinadorMapper {
              return new CoordinadorModel("",
                      docente.getPrimerNombre() +" "+docente.getSegundoNombre(),
                      docente.getPrimerApellido() +" "+docente.getSegundoApellido(),
-                     docente.getOidProgramaCoordinado());
+                     docente.getOidProgramaCoordinado(), docente.getIdentificacion());
          }catch (Exception e) {
              return null;
          }

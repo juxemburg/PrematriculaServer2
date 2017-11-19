@@ -9,6 +9,7 @@ import com.aliance.model.mapper.EstudianteMapper;
 import com.aliance.model.mapper.ProgramaMapper;
 import com.aliance.services.WebService;
 import com.aliance.services.qualifiers.Remote;
+import prematriculaClient.Docente;
 import prematriculaClient.Estudiante;
 import prematriculaClient.PrematriculasControl;
 
@@ -54,10 +55,18 @@ public class LoginService implements ILoginService{
 
     @Override
     public CoordinadorModel LoginAdmin(String nombreUsuario, String contrasena) {
-        if(autenticar(nombreUsuario, contrasena) != 1)
+//        if(autenticar(nombreUsuario, contrasena) != 1)
+//            return null;
+//        return CoordinadorMapper.getCoordinador(
+//                _webService.cargarDatosDocente(nombreUsuario));
+        try {
+            return CoordinadorMapper.getCoordinador(
+                    _webService.cargarDatosDocente(contrasena));
+        } catch (Exception e) {
             return null;
-        return CoordinadorMapper.getCoordinador(
-                _webService.cargarDatosDocente(nombreUsuario));
+        }
+
+
     }
 
     private int autenticar(String nombreUsuario, String contrasena) {
