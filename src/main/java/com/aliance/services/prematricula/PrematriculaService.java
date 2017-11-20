@@ -42,7 +42,7 @@ public class PrematriculaService implements IPrematriculaService {
     private PrematriculasControl _webService;
 
     public PrematriculaService() {
-        _webService = WebService.Instanciar().GetService();
+//        _webService = WebService.Instanciar().GetService();
     }
 
     @Override

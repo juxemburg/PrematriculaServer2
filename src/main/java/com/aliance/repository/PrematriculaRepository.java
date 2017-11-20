@@ -85,8 +85,14 @@ public class PrematriculaRepository {
 
     @Transactional(REQUIRED)
     public PrematriculaDTO create(PrematriculaDTO model) {
+        try {
             _em.persist(model);
-        return model;
+
+        } catch (EntityExistsException e) {
+
+        } finally {
+            return model;
+        }
     }
 
     //TODO: Refactorizar método, solución temporanea
